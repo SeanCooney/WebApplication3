@@ -8,9 +8,9 @@ namespace WebApplication3.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public String Index()
         {
-            return View();
+            return "Bye";
         }
 
         public ActionResult About()
